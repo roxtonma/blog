@@ -19,3 +19,7 @@ defaults:
 exclude:
   - md-help.md
   - README.md
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - .github/
