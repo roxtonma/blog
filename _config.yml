@@ -1,0 +1,21 @@
+title: Blogston
+author: Roxton Ma
+email: roxtonmart@gmail.com
+description: Not set in stone but out there.
+baseurl: "/blog" # Repository name / Comment out during local testing and exposing network
+encoding: utf-8
+permalink: /:slug/
+
+# Default post layout
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Roxton Ma" # Default author
+
+# Exclude files from processing
+exclude:
+  - md-help.md
+  - README.md

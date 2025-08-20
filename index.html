@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h2>All Posts</h2>
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="post-summary">
+        {% if post.summary %}
+          {{ post.summary }}
+        {% else %}
+          <p>{{ post.content | strip_html | truncatewords: 10 }}</p>
+        {% endif %}
+      </p>
+      <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+    </li>
+  {% endfor %}
+</ul>
