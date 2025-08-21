@@ -5,6 +5,7 @@ description: Not set in stone but out there.
 baseurl: "/blog" # Repository name / Comment out during local testing and exposing network
 encoding: utf-8
 permalink: /:slug/
+url: "https://roxtonma.github.io/blog/"
 
 # Default post layout
 defaults:
@@ -23,3 +24,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .github/
+
+plugins:
+  - jekyll-sitemap
