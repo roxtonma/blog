@@ -2,7 +2,7 @@ title: Blogston
 author: Roxton Ma
 email: roxtonmart@gmail.com
 description: Not set in stone but out there.
-baseurl: "/blog" # Repository name / Comment out during local testing and exposing network
+baseurl: "" # Repository name without "/" / Comment out during local testing and exposing network
 encoding: utf-8
 permalink: /:slug/
 url: "https://roxtonma.github.io/blog/"
