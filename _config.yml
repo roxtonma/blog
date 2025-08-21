@@ -2,10 +2,10 @@ title: Blogston
 author: Roxton Ma
 email: roxtonmart@gmail.com
 description: Not set in stone but out there.
-baseurl: "" # Repository name without "/" / Comment out during local testing and exposing network
+baseurl: "/blog" # Repository name without "/" / Comment out during local testing and exposing network
 encoding: utf-8
 permalink: /:slug/
-url: "https://roxtonma.github.io/blog/"
+url: "https://roxtonma.github.io"
 
 # Default post layout
 defaults:
