@@ -1,6 +1,7 @@
 # Ruby
 .jekyll-metadata
 _site
+vendor/
 
 # Misc
 desktop.ini
