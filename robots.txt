@@ -11,6 +11,7 @@ User-agent: Applebot
 Allow: /
 
 User-agent: *
+Allow: /sitemap.xml
 Disallow: /
 
 Sitemap: https://roxtonma.github.io/blog/sitemap.xml
