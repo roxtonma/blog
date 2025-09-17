@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Disallow: /
+
+Sitemap: https://roxtonma.github.io/blog/sitemap.xml
